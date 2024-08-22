@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon" />
+    <title>Dr. Mine!</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        opacity: 40%;
+        width: calc(30% - 90px);
+        height: 14vh;
+        padding: 68px;
+        
+        position: relative;
+        /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+      }
+
+      .container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; /* Ensure GIFs fill the container */
+        opacity: 60; /* Initially hide all GIFs */
+        transition: opacity 5s ease-in-out; /* Smooth transition for image swap */
+      }
+
+      /* Animation for looping GIFs in each container */
+      .container img:first-child {
+        animation: gif-loop-1 10s infinite ease-in-out;
+      }
+      .container img:nth-child(2) {
+        animation: gif-loop-2 10s infinite ease-in-out;
+        animation-delay: 10s;
+      } /* Delay by animation duration */
+      .container img:nth-child(3) {
+        animation: gif-loop-3 10s infinite ease-in-out;
+        animation-delay: 10s;
+      } /* Delay by combined duration */
+
+      @keyframes gif-loop-1 {
+        0% {
+          opacity: 1;
+        }
+        33% {
+          opacity: 1;
+        }
+        66% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes gif-loop-2 {
+        0% {
+          opacity: 0;
+        }
+        33% {
+          opacity: 0;
+        }
+        66% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes gif-loop-3 {
+        0% {
+          opacity: 0;
+        }
+        66% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="/images/gif/1.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/2.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/3.gif" alt="GIF 3 (Container 1)" />
+    </div>
+
+    <div class="container">
+      <img src="/images/gif/4.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/5.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/6.gif" alt="GIF 3 (Container 1)" />
+    </div>
+    <div class="container">
+      <img src="/images/gif/7.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/8.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/9.gif" alt="GIF 3 (Container 1)" />
+    </div>
+    <div class="container">
+      <img src="/images/gif/10.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/11.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/12.gif" alt="GIF 3 (Container 1)" />
+    </div>
+    <div class="container">
+      <img src="/images/gif/13.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/14.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/15.gif" alt="GIF 3 (Container 1)" />
+    </div>
+    <div class="container">
+      <img src="/images/gif/16.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/17.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/18.gif" alt="GIF 3 (Container 1)" />
+    </div>
+    <div class="container">
+      <img src="/images/gif/19.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/20.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/21.gif" alt="GIF 3 (Container 1)" />
+    </div>
+    <div class="container">
+      <img src="/images/gif/22.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/23.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/24.gif" alt="GIF 3 (Container 1)" />
+    </div>
+    <div class="container">
+      <img src="/images/gif/25.gif" alt="GIF 1 (Container 1)" />
+      <img src="/images/gif/26.gif" alt="GIF 2 (Container 1)" />
+      <img src="/images/gif/27.gif" alt="GIF 3 (Container 1)" />
+    </div>
+  </body>
+  <body>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+      window.botpressWebChat.init({
+        composerPlaceholder: "Chat with Dr.Mine",
+        botConversationDescription: "Your own friend !",
+        botId: "348fb7cb-a90b-4349-96f3-a88f4852e5c4",
+        hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+        messagingUrl: "https://messaging.botpress.cloud",
+        clientId: "348fb7cb-a90b-4349-96f3-a88f4852e5c4",
+        webhookId: "c579ce63-d5e4-4190-9a21-d342fed4578b",
+        lazySocket: true,
+        themeName: "prism",
+        botName: "Dr.Mine",
+        stylesheet:
+          "https://webchat-styler-css.botpress.app/prod/code/02c86449-e11d-4c89-a2fe-1397447facc1/v34487/style.css",
+        frontendVersion: "v1",
+        useSessionStorage: true,
+        enableConversationDeletion: true,
+        theme: "prism",
+        themeColor: "#2563eb",
+      });
+    </script>
+  </body>
+</html>
