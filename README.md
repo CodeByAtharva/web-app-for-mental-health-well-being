@@ -20,6 +20,16 @@ A web application that provides personalized recommendations for music, movies, 
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
+## Built With
+
+* [Express.js](https://expressjs.com/) - Web application framework
+* [MongoDB](https://www.mongodb.com/) - Database
+* [EJS](https://ejs.co/) - Templating engine
+* [Google Charts](https://developers.google.com/chart) - Used for data visualization
+* [GSAP](https://greensock.com/gsap/) - Animation library
+
+
+
 ## Features
 
 - User registration and authentication
@@ -171,3 +181,9 @@ To add your own assets:
 4. Update any references to these files in the codebase to match your file names
 
 We apologize for any inconvenience this may cause. If you have any questions about integrating your own media assets, please open an issue in this repository.
+
+
+## Support
+
+If you are having issues, please let us know.
+We have a mailing list located at: athrudev@gmail.com
