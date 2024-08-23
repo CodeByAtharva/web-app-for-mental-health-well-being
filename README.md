@@ -3,7 +3,7 @@
 
 A web application that provides personalized recommendations for music, movies, and books based on the user's current mood. Features include user authentication, mood tracking, and a personal journal.
 
-![Project Logo](path/to/logo.png)
+![Project Logo](screenshots/logo.png)
 
 ## Table of Contents
 - [Features](#features)
@@ -35,11 +35,14 @@ A web application that provides personalized recommendations for music, movies, 
 
 ### Screenshots
 
-![Home Page](screenshots/home_page.png)
-![Mood Selection](screenshots/mood_selection.png)
-![Recommendations](screenshots/recommendations.png)
-![Journal](screenshots/journal.png)
-![Profile](screenshots/profile.png)
+![Register Page](screenshots/register.jpg)
+![Home Page](screenshots/home_page.jpg)
+![Mood Selection](screenshots/mood_selection.jpg)
+![Books Recommendations](screenshots/rec1.jpg)
+![Music Recommendations](screenshots/rec2.jpg)
+![Movies Recommendations](screenshots/rec3.jpg)
+![Journal](screenshots/journal.jpg)
+
 
 ## Technologies Used
 
