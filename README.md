@@ -76,15 +76,9 @@ These instructions will get you a copy of the project up and running on your loc
    npm install
    ```
 
-4. Create a `.env` file in the root directory and add the following:
+4. Start the server:
    ```
-   MONGODB_URI=your_mongodb_connection_string
-   SESSION_SECRET=your_session_secret
-   ```
-
-5. Start the server:
-   ```
-   npm start
+   npx nodemon
    ```
 
 6. Open your browser and go to `http://localhost:3000`
