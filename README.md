@@ -1,5 +1,10 @@
 # web-application-for-mental-well-being
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Athrudev/web-app-for-mental-health-well-being)
+![GitHub last commit](https://img.shields.io/github/last-commit/Athrudev/web-app-for-mental-health-well-being)
+![GitHub issues](https://img.shields.io/github/issues-raw/Athrudev/web-app-for-mental-health-well-being)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Athrudev/web-app-for-mental-health-well-being)
+![GitHub](https://img.shields.io/github/license/Athrudev/web-app-for-mental-health-well-being)
 
 A web application that provides personalized recommendations for music, movies, and books based on the user's current mood. Features include user authentication, mood tracking, and a personal journal.
 
