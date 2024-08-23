@@ -63,12 +63,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/mood-based-recommendation-system.git
+   git clone https://github.com/Athrudev/web-app-for-mental-health-well-being.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd mood-based-recommendation-system
+   cd web-app-for-mental-health-well-being
    ```
 
 3. Install dependencies:
@@ -84,8 +84,6 @@ These instructions will get you a copy of the project up and running on your loc
 6. Open your browser and go to `http://localhost:3000`
 
 ## Usage
-
-[Provide instructions and examples on how to use your project]
 
 1. Register for an account or log in
 2. Update your current mood
@@ -120,9 +118,6 @@ These instructions will get you a copy of the project up and running on your loc
 └── README.md
 ```
 
-## API Reference
-
-[If applicable, include API endpoints and their usage]
 
 ## Contributing
 
@@ -153,4 +148,4 @@ Gmail: athrudev.email@gmail.com
 
 GitHub: [Your GitHub Profile](https://github.com/Athrudev)
 
-Project Link: [https://github.com/yourusername/mood-based-recommendation-system](https://github.com/yourusername/mood-based-recommendation-system)
+Project Link: [https://github.com/Athrudev/web-app-for-mental-health-well-being](https://github.com/Athrudev/web-app-for-mental-health-well-being)
