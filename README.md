@@ -31,7 +31,10 @@ A web application that provides personalized recommendations for music, movies, 
 
 ## Demo
 
-[Include a link to a live demo or a video demonstration of your project]
+We apologize, but a demo or preview is not currently available for this project. We're working on creating a demonstration to showcase the features and functionality of our Mood-Based Recommendation System. In the meantime, please refer to the [Features](#features) section for an overview of what the project offers, and the [Screenshots](#screenshots) section for visual representations of key components.
+
+If you're interested in seeing the project in action, we encourage you to follow the [Installation](#installation) instructions to set up and run the project locally.
+
 
 ### Screenshots
 
