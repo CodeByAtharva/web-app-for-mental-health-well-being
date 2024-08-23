@@ -154,6 +154,20 @@ This project is licensed under the [MIT License](LICENSE).
 
 Gmail: athrudev.email@gmail.com
 
-GitHub: [Your GitHub Profile](https://github.com/Athrudev)
+GitHub: [Link](https://github.com/Athrudev)
 
-Project Link: [https://github.com/Athrudev/web-app-for-mental-health-well-being](https://github.com/Athrudev/web-app-for-mental-health-well-being)
+Project Link: [Link](https://github.com/Athrudev/web-app-for-mental-health-well-being)
+
+
+## Note on Assets
+
+Due to the large file sizes of certain audio and video assets, we were unable to include them in this repository. When you run this project locally, you may need to add your own audio and video files to fully experience all features.
+
+To add your own assets:
+
+1. Navigate to the `public/` directory (create it if it doesn't exist)
+2. Add your audio files to `public/audio/`
+3. Add your video files to `public/video/`
+4. Update any references to these files in the codebase to match your file names
+
+We apologize for any inconvenience this may cause. If you have any questions about integrating your own media assets, please open an issue in this repository.
