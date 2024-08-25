@@ -106,6 +106,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 6. Open your browser and go to `http://localhost:3000`
 
+
+## Documentation
+
+For detailed information about the project's architecture, functionality, and implementation details, please refer to our comprehensive project documentation:
+
+[Project Working PDF](docs/mega_project_working.pdf)
+
+This document provides in-depth explanations of:
+
+- Project structure and organization
+- Detailed breakdown of each component
+- Database schema and relationships
+- API endpoints and their usage
+- Step-by-step guide for setup and deployment
+- Troubleshooting common issues
+
+We highly recommend reviewing this documentation to gain a thorough understanding of the project's inner workings and to assist with any development or customization efforts.****
+
+
 ## Usage
 
 1. Register for an account or log in
