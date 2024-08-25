@@ -111,7 +111,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 For detailed information about the project's architecture, functionality, and implementation details, please refer to our comprehensive project documentation:
 
-[Project Working PDF](docs/mega_project_working.pdf)
+([Project Working PDF](https://github.com/Athrudev/web-app-for-mental-health-well-being/raw/main/docs/mega_project_working.pdf)
 
 This document provides in-depth explanations of:
 
