@@ -13,17 +13,24 @@ A web application that provides personalized recommendations for music, movies, 
 ## Table of Contents
 - [Features](#features)
 - [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Built With](#built-with)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Documentation](#documentation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [API Reference](#api-reference)
+- [Large Video Files](#large-video-files)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+- [Note on Assets](#note-on-assets)
+- [Support](#support)
+
+
 
 ## Built With
 
