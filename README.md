@@ -135,7 +135,7 @@ We highly recommend reviewing this documentation to gain a thorough understandin
 
 Due to GitHub's file size limitations, we were unable to include our video files directly in the repository. However, we have made these essential video assets available via Google Drive. To fully experience all features of the application, please follow these steps:
 
-1. Download the video files from our Google Drive link: [Video Files for Mental Health Web App](INSERT_YOUR_GOOGLE_DRIVE_LINK_HERE)
+1. Download the video files from our Google Drive link: [Video Files for Mental Health Web App](https://drive.google.com/drive/folders/1bu2U10zCm7UJDqjnDd7AR8Obdc6Cx9hN?usp=drive_link)
 
 2. After downloading, place the video files in the following directory of your local copy of the repository:
    ```
