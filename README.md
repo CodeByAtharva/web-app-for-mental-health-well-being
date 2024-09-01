@@ -124,6 +124,22 @@ This document provides in-depth explanations of:
 
 We highly recommend reviewing this documentation to gain a thorough understanding of the project's inner workings and to assist with any development or customization efforts.****
 
+## Large Video Files
+
+Due to GitHub's file size limitations, we were unable to include our video files directly in the repository. However, we have made these essential video assets available via Google Drive. To fully experience all features of the application, please follow these steps:
+
+1. Download the video files from our Google Drive link: [Video Files for Mental Health Web App](INSERT_YOUR_GOOGLE_DRIVE_LINK_HERE)
+
+2. After downloading, place the video files in the following directory of your local copy of the repository:
+   ```
+   public/video/
+   ```
+
+3. Ensure that the video file names match those referenced in the application code. If you encounter any issues with file names, please check the relevant code sections and adjust accordingly.
+
+By following these steps, you'll have the complete set of assets needed to run the application as intended. We apologize for any inconvenience this extra step may cause and appreciate your understanding.
+
+If you encounter any issues or have questions about integrating these video files, please don't hesitate to open an issue in this repository or contact us directly.
 
 ## Usage
 
