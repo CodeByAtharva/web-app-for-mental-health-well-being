@@ -75,6 +75,15 @@ router.get("/", function (req, res) {
   }*/
  res.render("landing", { user: null });
 });
+router.get("/index", function (req, res) {
+  const userID = req.query.user;
+  if (userID) {
+    res.render("index", { user: userID });
+  } else {
+    res.redirect("/login");
+  }
+ //res.render("landing", { user: null });
+});
 
 router.get("/register", function (req, res) {
   res.render("register");
@@ -111,7 +120,7 @@ router.post("/register", async function (req, res) {
         password: password,
       });
       const userID = user._id;
-      res.redirect(`/?user=${userID}`);
+      res.redirect(`/index?user=${userID}`);
     }
   } catch (e) {
     console.error(e);
@@ -134,7 +143,7 @@ router.post("/login", async function (req, res) {
   console.log(user);
 
   if (user.username === username && user.password === password) {
-    res.redirect(`/?user=${userID}`);
+    res.redirect(`/index?user=${userID}`);
   } else {
     res.redirect("/login");
   }
