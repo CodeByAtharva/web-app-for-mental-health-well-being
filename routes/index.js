@@ -67,12 +67,13 @@ router.get("/getdata/:user", async function (req, res) {
 
 /* GET home page. */
 router.get("/", function (req, res) {
-  const userID = req.query.user;
+  /*const userID = req.query.user;
   if (userID) {
     res.render("index", { user: userID });
   } else {
     res.redirect("/login");
-  }
+  }*/
+ res.render("landing", { user: null });
 });
 
 router.get("/register", function (req, res) {
