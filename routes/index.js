@@ -3,8 +3,33 @@ var router = express.Router();
 var data = require("./data.js");
 const userModel = require("./users.js");
 const notesModel = require("./notes.js");
+const path = require('path');
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+// First add the middleware for parsing request bodies
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Then mount the router
+app.use("/", router);
+
+// Set the view engine
+app.set('view engine', 'ejs');
+app.use(express.static('./public')); // Serve static files from the public directory
+
+// Optional: Set views directory (default is 'views')
+app.set('views', 'D:/project/web-app-for-mental-health-well-being/views');
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
 
 
+app.get('/test', (req, res) => {
+  res.send('Hello World');
+});
 
 router.get("/getdata/:user", async function (req, res) {
   try {
