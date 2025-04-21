@@ -392,7 +392,7 @@ const data = {
       '"Kung Fu Panda"',
       '"Hera Pheri"',
       '"Hera Pheri 2"',
-      '"Hera Pheri 3"',
+      '"phir Hera Pheri"',
       '"Munnabhai MBBS"',
       '"Charlie Chaplin"',
       '"Shivaji Rao Bhosale"',
